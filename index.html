@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p id="output"></p>
+
+    <script>
+    // Set the variables 
+    var A = "SB";
+    var B = 19;
+    var C = B >= 19;
+    var D = C && (B + 11);
+
+    // Display A using window.alert
+    window.alert(A);
+
+    // Display B using document.write
+    document.write(B);
+
+    // Display C using window.alert
+    window.alert(C);
+
+    // Display D using document.write
+    document.write(D);
+
+    // Combine A and B using concatenation ( + ) and display the result using innerHTML
+    document.getElementById("output").innerHTML= A + B;
+    </script>
+
+</body>
+</html>
